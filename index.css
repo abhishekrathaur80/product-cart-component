@@ -1,0 +1,104 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+     width: 1440px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 450px;
+    width: 600px;
+    margin: auto;
+    margin-top: 160px;
+}
+
+img{
+    height:450px;
+    width: 300px;
+    object-fit: cover;
+}
+
+#info{
+    background-color: white;
+}
+
+#stitle{
+    color: hsl(228, 12%, 48%);
+    margin-top: 30px;
+    margin-left: 28px;
+    letter-spacing: 5px;
+    font-size: 12px;
+}
+
+#btitle{
+    margin-top: 25px;
+    margin-left: 28px;
+    line-height: 30px;
+    
+}
+
+#ptitle{
+    color: hsl(228, 12%, 48%);
+    margin-top: 25px;
+    margin-left: 28px;
+    width: 250px;
+    font-size: 14px;
+    word-spacing: 3px;
+    line-height: 20px;
+}
+
+#newPrice{
+    color: hsl(158, 36%, 37%);
+    font-size: 35px;
+    margin-top: 25px;
+   margin-left: 28px;
+}
+
+#oldPrice{
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+    text-decoration: line-through;
+    margin-left: 12px;
+    position: relative;
+    bottom: 8px;
+}
+
+#bButton{
+ 
+    height: 50px;
+    width: 240px;
+    margin-left: 28px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    cursor: pointer;
+}
+
+.button{
+    position: relative;
+}
+
+#icon{
+    position: relative;
+    left: 70px;
+    bottom: 28px;
+    color: white;
+}
+
+#bButton:hover{
+    background-color: white;
+    color:hsl(158, 36%, 37%) 
+}
+
+#icon:hover{
+    background-color: hsl(158, 36%, 37%);
+  color: white;    
+}
